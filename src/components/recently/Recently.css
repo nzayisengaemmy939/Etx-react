@@ -1,0 +1,40 @@
+.recently{
+    margin: 80px 90px;
+}
+.recently h1{
+color: white;
+font-size: 35px;
+
+}
+.recently-movies{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eight{
+background: hsla(0, 0%, 85%, 1);
+width: 88px;
+height: 88px;
+border-radius: 50%;
+align-content: center;
+text-align: center;
+}
+.eight img{
+    width: 36px;
+    height: 32px;
+}
+.recently-realesed{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 206px;
+    height: 103px;
+
+}
+.time-realesed{
+    width: 118px;
+    height: 80px;
+    /* border: 2px solid red; */
+}

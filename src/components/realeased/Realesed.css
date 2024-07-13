@@ -1,0 +1,18 @@
+.realesed{
+    margin:0px 90px;
+    
+}
+.realesed-head{
+    display: flex;
+    justify-content: space-between;
+}
+.realesed h1{
+    color: white;
+    font-size: 35px;
+}
+.realesed-movies{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
