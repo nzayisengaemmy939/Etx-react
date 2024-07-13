@@ -41,10 +41,10 @@ const Recommended = () => {
           <img src={twenty1}></img>
           <div className="genres">
             <div className="genre">
-              <p>Ghosted</p>
+              <p>Robots</p>
             </div>
             <div className="genre">
-              <button>HD</button>
+              <button>CAM</button>
               <button className="time">
                 <img src={one}></img>3:12:00
               </button>
@@ -55,10 +55,10 @@ const Recommended = () => {
           <img src={twenty2}></img>
           <div className="genres">
             <div className="genre">
-              <p>John Wick: Ch...</p>
+              <p>Love Again</p>
             </div>
             <div className="genre">
-              <button>HD</button>
+              <button>CAM</button>
               <button className="time">
                 <img src={one}></img>3:12:00
               </button>
@@ -69,10 +69,10 @@ const Recommended = () => {
           <img src={twenty3}></img>
           <div className="genres">
             <div className="genre">
-              <p>Guardians of th..</p>
+              <p>Hypnoptic</p>
             </div>
             <div className="genre">
-              <button>HD</button>
+              <button>CAM</button>
               <button className="time">
                 <img src={one}></img>3:12:00
               </button>
@@ -83,7 +83,7 @@ const Recommended = () => {
           <img src={twenty4}></img>
           <div className="genres">
             <div className="genre">
-              <p>The Conven...</p>
+              <p>Paint</p>
             </div>
             <div className="genre">
               <button>HD</button>
@@ -97,10 +97,10 @@ const Recommended = () => {
           <img src={twenty5}></img>
           <div className="genres">
             <div className="genre">
-              <p>The Conven...</p>
+              <p>Book Club</p>
             </div>
             <div className="genre">
-              <button>HD</button>
+              <button>CAM</button>
               <button className="time">
                 <img src={one}></img>3:12:00
               </button>
@@ -111,7 +111,7 @@ const Recommended = () => {
           <img src={twenty6}></img>
           <div className="genres">
             <div className="genre">
-              <p>The Conven...</p>
+              <p>THE MOTHER</p>
             </div>
             <div className="genre">
               <button>HD</button>
@@ -125,7 +125,7 @@ const Recommended = () => {
           <img src={twenty7}></img>
           <div className="genres">
             <div className="genre">
-              <p>The Conven...</p>
+              <p>January 6th</p>
             </div>
             <div className="genre">
               <button>HD</button>
@@ -139,7 +139,7 @@ const Recommended = () => {
           <img src={twenty8}></img>
           <div className="genres">
             <div className="genre">
-              <p>The Conven...</p>
+              <p>Sisu</p>
             </div>
             <div className="genre">
               <button>HD</button>

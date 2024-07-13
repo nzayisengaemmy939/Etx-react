@@ -21,7 +21,7 @@ body{
 }
 .realesed h1{
   color: white;
-  font-size: 35px;
+  font-size: 24px;
 }
 .realesed-movies{
   margin-top: 20px;
@@ -35,6 +35,7 @@ body{
   border-radius:10px;
   width: 256px;
   height: 392px;
+  margin-top: 10px;
   margin-bottom: 20px;
 
   /* border: 2px solid red */
