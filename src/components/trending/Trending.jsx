@@ -9,7 +9,8 @@ import three from "../../assets/three.png";
 
 import "./Trending.css";
 
-const Trending = () => {
+const Trending = ({film}) => {
+  
   return (
     <div className="trending">
       <div className="trending-head">
@@ -37,11 +38,11 @@ const Trending = () => {
 
           <div className="genres">
             <div className="genre">
-              <p>Medellin</p>
+              <p>{film[0].name}</p>
             </div>
             <div className="genre">
-              <button>Action</button>
-              <button>Comedy</button>
+              <button>{film[0].action}</button>
+              <button>{film[0].style}</button>
             </div>
           </div>
         </div>
@@ -58,12 +59,12 @@ const Trending = () => {
           <img className="play-pause" src={twenty9}></img>
           <div className="genres">
             <div className="genre">
-              <p>Fast X</p>
+              <p>{film[1].name}</p>
             </div>
             <div className="genre">
-              <button>Action</button>
-              <button>Crime</button>
-              <button>Thriller</button>
+              <button>{film[1].action}</button>
+              <button>{film[1].type}</button>
+              <button>{film[1].style}</button>
             </div>
           </div>
         </div>
@@ -81,11 +82,11 @@ const Trending = () => {
 
           <div className="genres">
             <div className="genre">
-              <p>The Black Dem...</p>
+              <p>{film[2].name}.</p>
             </div>
             <div className="genre">
-              <button>Horror</button>
-              <button>Thriller</button>
+              <button>{film[2].action}</button>
+              <button>{film[2].style}</button>
             </div>
           </div>
         </div>

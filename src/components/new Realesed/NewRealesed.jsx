@@ -7,7 +7,7 @@ import nineteen from "../../assets/nineteen.png";
 import twenty from "../../assets/twenty.png";
 import twelve from "../../assets/twelve.png";
 
-const NewRealesed = () => {
+const NewRealesed = ({series}) => {
     return (
         <div className="realesed">
           <div className="realesed-head">
@@ -27,7 +27,7 @@ const NewRealesed = () => {
 
               <div className="genres">
                 <div className="genre">
-                  <p>Silo</p>
+                  <p>{series[0].name}</p>
                 </div>
                 <div className="genre">
                   <button>HD</button>
@@ -41,7 +41,8 @@ const NewRealesed = () => {
 
               <div className="genres">
                 <div className="genre">
-                  <p>Black Night</p>
+                <p>{series[1].name}</p>
+                  
                 </div>
                 <div className="genre">
                   <button>HD</button>
@@ -55,7 +56,8 @@ const NewRealesed = () => {
 
               <div className="genres">
                 <div className="genre">
-                  <p>Drops of God</p>
+                <p>{series[2].name}</p>
+                  
                 </div>
                 <div className="genre">
                   <button>HD</button>
@@ -69,7 +71,8 @@ const NewRealesed = () => {
 
               <div className="genres">
                 <div className="genre">
-                  <p>The Night Agent</p>
+                <p>{series[3].name}</p>
+                  
                 </div>
                 <div className="genre">
                   <button>HD</button>

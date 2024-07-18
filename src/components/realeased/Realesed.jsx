@@ -8,7 +8,7 @@ import sixteen from "../../assets/sixteen.png";
 import one from "../../assets/one.png";
 
 import "./Realesed";
-const Realesed = () => {
+const Realesed = ({real}) => {
   return (
     <div className="realesed">
       <div className="realesed-head">
@@ -26,7 +26,7 @@ const Realesed = () => {
           <img src={thirteen}></img>
           <div className="genres">
             <div className="genre">
-              <p>Ghosted</p>
+              <p>{real[0].name}</p>
             </div>
             <div className="genre">
               <button>HD</button>
@@ -38,7 +38,8 @@ const Realesed = () => {
           <img src={fouteen}></img>
           <div className="genres">
             <div className="genre">
-              <p>John Wick: Ch...</p>
+            <p>{real[1].name}</p>
+              
             </div>
             <div className="genre">
               <button>HD</button>
@@ -62,7 +63,8 @@ const Realesed = () => {
           <img src={sixteen}></img>
           <div className="genres">
             <div className="genre">
-              <p>The Conven...</p>
+            <p>{real[2].name}</p>
+            
             </div>
             <div className="genre">
               <button>HD</button>

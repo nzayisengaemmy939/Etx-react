@@ -12,7 +12,7 @@ import twenty8 from "../../assets/twenty8.png";
 import one from "../../assets/one.png";
 import "./Recommended.css";
 
-const Recommended = () => {
+const Recommended = ({recommend}) => {
   return (
     <div className="realesed">
       <div className="recommend-head">
@@ -41,7 +41,7 @@ const Recommended = () => {
           <img src={twenty1}></img>
           <div className="genres">
             <div className="genre">
-              <p>Robots</p>
+              <p>{recommend[0].name}</p>
             </div>
             <div className="genre">
               <button>CAM</button>
@@ -55,7 +55,8 @@ const Recommended = () => {
           <img src={twenty2}></img>
           <div className="genres">
             <div className="genre">
-              <p>Love Again</p>
+            <p>{recommend[1].name}</p>
+              
             </div>
             <div className="genre">
               <button>CAM</button>
@@ -69,7 +70,8 @@ const Recommended = () => {
           <img src={twenty3}></img>
           <div className="genres">
             <div className="genre">
-              <p>Hypnoptic</p>
+            <p>{recommend[2].name}</p>
+              
             </div>
             <div className="genre">
               <button>CAM</button>
@@ -83,7 +85,8 @@ const Recommended = () => {
           <img src={twenty4}></img>
           <div className="genres">
             <div className="genre">
-              <p>Paint</p>
+            <p>{recommend[3].name}</p>
+              
             </div>
             <div className="genre">
               <button>HD</button>
@@ -97,7 +100,8 @@ const Recommended = () => {
           <img src={twenty5}></img>
           <div className="genres">
             <div className="genre">
-              <p>Book Club</p>
+            <p>{recommend[4].name}</p>
+              
             </div>
             <div className="genre">
               <button>CAM</button>
@@ -111,7 +115,8 @@ const Recommended = () => {
           <img src={twenty6}></img>
           <div className="genres">
             <div className="genre">
-              <p>THE MOTHER</p>
+            <p>{recommend[5].name}</p>
+              
             </div>
             <div className="genre">
               <button>HD</button>
@@ -125,7 +130,8 @@ const Recommended = () => {
           <img src={twenty7}></img>
           <div className="genres">
             <div className="genre">
-              <p>January 6th</p>
+            <p>{recommend[6].name}</p>
+              
             </div>
             <div className="genre">
               <button>HD</button>
@@ -139,7 +145,8 @@ const Recommended = () => {
           <img src={twenty8}></img>
           <div className="genres">
             <div className="genre">
-              <p>Sisu</p>
+            <p>{recommend[7].name}</p>
+              
             </div>
             <div className="genre">
               <button>HD</button>
